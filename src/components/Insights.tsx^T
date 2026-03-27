@@ -1,0 +1,12 @@
+import React from "react";
+
+const Insights: React.FC = () => {
+  return (
+    <div>
+      <h2>Budget Insights</h2>
+      <p>This is where your insights will appear.</p>
+    </div>
+  );
+};
+
+export default Insights;
