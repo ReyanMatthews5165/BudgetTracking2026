@@ -8,7 +8,6 @@ interface InsightsProps {
   weeklyAverage: number;
 }
 
-
 export default function Insights({ expenses, budgets, weeklyAverage }: InsightsProps) {
   
   // Export expenses to CSV
