@@ -1,4 +1,4 @@
-
+// TODO: improve CSV export formatting to handle edge cases
 import React from "react";
 
 interface Insight {
