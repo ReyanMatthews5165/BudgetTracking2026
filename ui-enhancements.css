@@ -1,5 +1,12 @@
 /* UI/UX Improvements for BudgetTracking2026 */
 
+body {
+  background: linear-gradient(to top, #bfdbfe, #c4b5fd, #fbcfe8);
+  min-height: 100vh;
+  margin: 0;
+}
+
+
 .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 10px;
