@@ -1,0 +1,29 @@
+git checkout main
+git pull origin main
+git checkout -b feature/figma-micro-interactions
+git push -u origin feature/figma-micro-interactions
+
+/////
+
+git add .
+git commit -m "Add Figma micro interactions for improved user experience"
+git push
+
+///
+
+## Feature: Figma Micro Interactions
+
+### What was updated
+- Added micro interactions to improve the user experience
+- Included button tap/hover states
+- Added smooth progress bar animation concept
+- Improved visual feedback for user actions
+- Updated Figma prototype interactions for a more realistic app flow
+
+### Why this change matters
+These changes make the Budget Tracking app feel more interactive, modern, and user-friendly.
+
+### Checklist
+- [x] Created new feature branch
+- [x] Updated Figma design/prototype
+- [x] Ready for review
