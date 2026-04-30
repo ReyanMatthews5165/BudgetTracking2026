@@ -27,3 +27,84 @@ These changes make the Budget Tracking app feel more interactive, modern, and us
 - [x] Created new feature branch
 - [x] Updated Figma design/prototype
 - [x] Ready for review
+
+
+
+
+
+/* Micro Interactions for Budget Tracking App */
+
+.interactive-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.interactive-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.interactive-button {
+  transition: transform 0.15s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.interactive-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
+.interactive-button:active {
+  transform: scale(0.96);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  animation: fillProgress 1s ease forwards;
+}
+
+@keyframes fillProgress {
+  from {
+    width: 0%;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.alert-pop {
+  animation: alertPop 0.35s ease;
+}
+
+@keyframes alertPop {
+  0% {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
